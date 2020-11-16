@@ -13,6 +13,6 @@ namespace AeroAPI.Model
 
         public DbSet<Voo> Voos { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-            => optionsBuilder.UseNpgsql("Host=localhost;Database=aero_db;Username=postgre;Password=postgre");
+            => optionsBuilder.UseNpgsql("Host=localhost;Database=aero_db;Username=postgres;Password=postgres");
     }
 }

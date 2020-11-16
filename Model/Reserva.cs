@@ -9,7 +9,7 @@ namespace AeroAPI.Model
     {
         public int Id { get; set; }
 
-        public int VooId { get; set; }
+        public int VooId { get; set; } 
 
         public Voo Voo { get; set; }
 
